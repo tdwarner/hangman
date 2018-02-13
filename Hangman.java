@@ -2,7 +2,7 @@
  *
  * @author Terrance Warner
  * @version 1.0
- * @since -02/12/2018-
+ * @since -DATE FINISHED-
  * Hangman.java
  *
  * This program allows a user to play Hangman with the computer.
@@ -42,7 +42,13 @@ public class Hangman
 	public static void main(String[] args)
 	{
 			// alg to select random movie title from array & turn strings to "*"// 
-			
+			System.out.println();
+			System.out.println("Welcome to Hangman by Terrance:");
+			System.out.println();
+			System.out.println("I've randomly selected a movie title for you to guess");
+			System.out.println("Use both uppercase and lowercase letters for your guesses\nspecial charcters have been provided");
+			System.out.println("The asterisks below represent the length of the movie title");
+			System.out.println();
 			Random generator = new Random(); //random number generator for movie selection
 			int movieSelection = generator.nextInt(movieList.length); // selects random movie from 0 - 14 for movies in array
 			StringBuilder currentGuess = new StringBuilder(movieList[movieSelection].length()); // length of movie title
