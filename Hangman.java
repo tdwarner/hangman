@@ -2,7 +2,7 @@
  *
  * @author Terrance Warner
  * @version 1.0
- * @since -DATE FINISHED-
+ * @since -02/12/2018-
  * Hangman.java
  *
  * This program allows a user to play Hangman with the computer.
